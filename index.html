@@ -1,0 +1,263 @@
+<html>
+<head>
+<style>
+
+*{
+    font-family: 'Pretendard', sans-serif;
+    box-sizing: border-box;
+}
+
+#home header .btn_area{
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+#home header .btn_area .btn_left{
+
+}
+
+section {
+    display:block;
+    unicode-bidi:isolate;
+}
+
+
+#home .sec00{
+    border: 1px solid green;
+    width: 100%;
+    height: 500px;
+    
+    text-align: center;
+    
+}
+
+#home .sec00 .txt_area h1{
+    font-size: 52px;
+    font-weight : 800;
+
+    line-height: 62.4px;
+    color: #4541FF;
+    margin-bottom: 20px;
+    
+}
+
+@keyframes slide {
+
+    100% {transform: translateX(-100%);} 
+}
+
+#home .sec01{
+    display:block;
+}
+
+#home .sec01 .slide.slide1{
+    width: 100%;    
+    display:flex;
+    align-items: flex;
+    flex-direction : row;
+
+    /* animation */
+    animation-name : slide;
+    animation-direction : normal;
+    animation-duration : 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    margin-bottom: 24px;
+
+}
+
+#home .sec01 .slide.slide2{
+    width: 100%;    
+    display:flex;
+    align-items: flex;
+    flex-direction : row;
+
+    /* animation */
+    animation-name : slide;
+    animation-direction : reverse;
+    animation-duration : 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+#home .sec01 .slide .comp{
+    border: 1px solid red;
+    width: 282px;
+    height: 180px;
+    border-radius :20px;
+    margin-right: 24px;
+
+}
+
+
+</style>
+
+</head>
+<body>
+    <div id="home">
+        <header>
+            <div class="btn_area">
+                <div class="btn_index">
+                    <a href="/">
+                        <img src="https://solapi.com/assets/img/logo.svg" alt>
+                    </a>
+                </div>
+                <div class="btn_center">
+                    <button>서비스안내</button>
+                    <button>가격정책</button>
+                    <button>앱스토어</button>
+                    <button>블로그</button>
+                    <button>이용가이드</button>
+                    <button>개발문서</button>                                
+                </div>
+                <div class="btn_center">
+                    <button>로그인</button>
+                    <button>무료체험</button>
+                    <button>솔라피 체험하기</button>
+                </div>
+            </div>
+            
+        </header>
+        <seciont class="sec00">
+            <div class="txt_area">
+                <h1>모든 고객이 통하는<br>마케팅 메시지, 솔라피</h1>
+
+            </div>
+            <div class="btn_area">
+                <button>
+                    솔라피 시작하기
+                </button>
+                <button>
+                    데모체험하기
+                </button>
+
+            </div>
+        </seciont>
+        <section class="sec01">
+            <div class="slide slide1">
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon1.png">
+                    </div>
+                    <div class="text">
+                        <p>REST API</p>
+                        <span>쉽고 빠른 연동</span>
+                    </div>
+                </div>
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon2.png">
+                    </div>
+                    <div class="text">
+                        <p>SDK</p>
+                        <span>개발환경별 SDK</span>
+                    </div>
+                </div>      
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon3.png">
+                    </div>
+                    <div class="text">
+                        <p>kakao</p>
+                        <span>알림톡 친구톡</span>
+                    </div>
+                </div>  
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon4.png">
+                    </div>
+                    <div class="text">
+                        <p>NAVER</p>
+                        <span>네이버 톡톡</span>
+                    </div>
+                </div>
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon5.png">
+                    </div>
+                    <div class="text">
+                        <p>3세대 메시지 RCS</p>
+                        <span>문자 오픈율 25%증가</span>
+                    </div>
+                </div>
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon6.png">
+                    </div>
+                    <div class="text">
+                        <p>REST API</p>
+                        <span>쉽고빠른 연동</span>
+                    </div>
+                </div>  
+            </div>
+            <div class="slide slide2">
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon1.png">
+                    </div>
+                    <div class="text">
+                        <p>REST API</p>
+                        <span>쉽고 빠른 연동</span>
+                    </div>
+                </div>
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon2.png">
+                    </div>
+                    <div class="text">
+                        <p>SDK</p>
+                        <span>개발환경별 SDK</span>
+                    </div>
+                </div>      
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon3.png">
+                    </div>
+                    <div class="text">
+                        <p>kakao</p>
+                        <span>알림톡 친구톡</span>
+                    </div>
+                </div>  
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon4.png">
+                    </div>
+                    <div class="text">
+                        <p>NAVER</p>
+                        <span>네이버 톡톡</span>
+                    </div>
+                </div>
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon5.png">
+                    </div>
+                    <div class="text">
+                        <p>3세대 메시지 RCS</p>
+                        <span>문자 오픈율 25%증가</span>
+                    </div>
+                </div>
+                <div class="comp">
+                    <div class="icon">
+                        <img src="https://solapi.com/assets/img/home-sec02-icon6.png">
+                    </div>
+                    <div class="text">
+                        <p>REST API</p>
+                        <span>쉽고빠른 연동</span>
+                    </div>
+                </div>  
+            </div>            
+        </section>
+        <section class="sec02"></section>
+        <footer></footer>
+
+    </div>
+
+</body>
+
+
+</html>
