@@ -160,3 +160,59 @@ section {
 #home .sec02 .brand_area .brand img{
     width:100%;
 }
+
+#home .sec02 {
+    padding: 200px 0;
+    text-align: center;
+}
+
+#home .sec02 .txt_area h1{
+    font-size:52px;
+    font-weight: 800;
+    line-height: 62.4px;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+#home .sec02 .txt_area{
+    margin : 0 0 52px 0;
+}
+
+#home .sec02 .txt_area span{
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+#home .sec02 .btn_area{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+#home .sec02 .btn_area a{
+
+    border:1px solid #4541FF;
+    border-radius: 100px;
+
+    padding: 16px 32px;
+    background-color: #fff;
+    color:#4541FF;
+    font-weight:800;
+    font-size:16px;
+}
+
+#home .sec02 .btn_area a{
+
+    border:1px solid #4541FF;
+    border-radius: 100px;
+
+    padding: 16px 32px;
+    background-color: #fff;
+    color:#4541FF;
+    font-weight:800;
+    font-size:16px;
+    
+}
