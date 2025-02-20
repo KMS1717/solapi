@@ -208,11 +208,67 @@ section {
 
     border:1px solid #4541FF;
     border-radius: 100px;
-
     padding: 16px 32px;
     background-color: #fff;
     color:#4541FF;
     font-weight:800;
     font-size:16px;
-    
+}
+
+#home #sec03{
+    background: radial-gradient(66.36% 40.53% at 64.92% 74.17%, rgba(176, 227, 255, 0.60) 0%, rgba(146, 216, 255, 0.00) 100%), radial-gradient(66.65% 66.06% at 22.06% 53.20%, rgba(156, 196, 255, 0.60) 0%, rgba(230, 240, 255, 0.00) 100%), radial-gradient(96.51% 81.59% at 81.80% 18.16%, rgba(69, 65, 255, 0.20) 0%, rgba(249, 249, 249, 0.00) 100%);
+}
+
+#home .sec03 {
+    margin : 0 auto;
+    max-width: 1200px;
+}
+
+#home .sec03 .inner{
+    padding : 200px 0;
+    max-width: 1200px;
+}
+
+#home .sec03 .inner .txt_area {
+    margin-bottom: 48px;
+}
+
+#home .sec03 .inner .txt_area p{
+    color: #4541FF;
+    font-size : 20px;
+    font-weight: 550;
+    line-height: 28.6px;
+    margin-bottom : 16px;
+}
+
+#home .sec03 .inner .txt_area h1{
+    color: #333;
+    font-size : 52px;
+    font-weight: 800;
+    line-height: 62.4px;
+}
+
+#home .sec03 .inner .item_area{
+    border: 1px solid red;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+#home .sec03 .inner .item_area .item{
+    text-align: center;
+}
+
+#home .sec03 .inner .item_area .img{
+    width:100%;
+    margin-bottom:20px;
+}
+
+#home .sec03 .inner .item_area .img img{
+    width:100%;
+}
+
+#home .sec03 .inner .item_area .txt p{
+    font-size:18px;
+    font-weight:400;
 }
