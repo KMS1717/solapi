@@ -8,6 +8,47 @@ section {
     unicode-bidi:isolate;
 }
 
+#home #header{
+    position: sticky;
+    top:0;
+    margin-bottom: -60px;
+    height: 60px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 999;
+    border-bottom: 1px solid transparent;
+}
+
+#home #header .inner{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#home #header .inner .btn_area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#home #header .inner .btn_area .idx_logo{
+    width: 109px;
+    flex: 1;
+    margin-right: auto;
+}
+
+#home #header .inner .btn_area .btn_center{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
 #home .sec00{
     padding: 160px 0 100px; text-align: center;
 }
@@ -345,4 +386,56 @@ section {
 
 #home #sec05 {
     background-color: #4541FF;
+}
+
+#home #sec05 .sec05{
+    padding: 140px 0;
+    opacity: 1;
+    position :relative;
+}
+
+#home #sec05 .sec05{
+    padding: 140px 0;
+    opacity: 1;
+    position :relative;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    100% {
+      opacity: 1;
+    }
+  }
+
+#home #sec05 .sec05 .txt_area{
+    position:absolute;  
+    top:50%;
+    left:50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+@keyframes rotate{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#home #sec05 .sec05 img{
+    animation: rotate 6s linear infinite;
+}
+
+#home #sec05 .sec05 .txt_area h1{
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 62.4px;
+    margin-bottom: 20px;
+}
+
+#home #sec05 .sec05 .txt_area p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
 }
